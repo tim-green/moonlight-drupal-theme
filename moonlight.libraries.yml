@@ -17,7 +17,7 @@ global-styling:
     js/masonry.js: {}
     js/magnific-popup.js: {}
     js/wow.min.js: {}
-    styles/slick/slick.min.js: {}
+    css/slick/slick.min.js: {}
     js/scripts.js: {}
     
   dependencies:
