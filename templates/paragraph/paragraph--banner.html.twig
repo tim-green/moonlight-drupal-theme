@@ -1,0 +1,17 @@
+<header id="home">
+    <div class="container h-100">
+        <div class="row h-100">
+        	<img src="{{ file_url(content.field_image['#items'].entity.uri.value)}}"
+			     class="wow fadeInUp"
+			     alt="{{ content.field_image['#items'].alt }}" 
+			     style="position: absolute; margin: auto; left: 0; right: 0"
+			     title="{{ content.field_image['#items'].title }}">
+         
+            <div class="col-md-7 mx-auto text-center slider-content wow slideInUp">                   
+                <h1 class="">{{content.field_title.0}}</h1>
+                <p class="tagline">{{content.field_description.0}}</p>
+                <a href="{{content.field_link.0["#url"]}}" class="btn btn-primary">{{content.field_link.0["#title"]}}</a>
+            </div>
+        </div>
+    </div>
+</header>
