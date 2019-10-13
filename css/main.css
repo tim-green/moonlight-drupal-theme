@@ -169,6 +169,9 @@ header {
 .navbar-nav .nav-link {
     position: relative;
 }
+.page-title{
+    display: none;
+}
 #home {
     background: #ffebe3;
     background-size: cover;
