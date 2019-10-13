@@ -1,0 +1,59 @@
+<div class="nav-menu fixed-top">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <nav class="navbar navbar-dark navbar-expand-lg">
+                    {{page.logo}}
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+                    {{page.primary_menu}}
+                </nav>
+            </div>
+        </div>
+    </div>
+</div>
+
+{# Main #}
+<section id="not-found-section" class="text-center">
+  <div class="container">               
+    <div class="row"> 
+      <div class="not-found-body" >
+        <div class="not-title" >
+          <h1>401</h1>
+          <h2>Unauthorised Response Error</h2> 
+        </div>  
+          <h2>Access to the page was denied]</h2>
+          <p class="not-p">You are not authorised to access this page. You must login to view this page.</p>
+          <a href="{{front_page}}"> Go Home </a>
+      </div>
+    </div>          
+  </div>    
+</section>
+{# Main #}
+
+<footer>
+        <div class="container h-100">        
+            <div class="row">
+                <div class="col-12 col-lg-8 mx-auto text-center">
+                    <h3>{{follow_us_title}}</h3>
+                    <ul class="nav nav-social list-inline d-flex justify-content-center">
+                        <li class="list-inline-item">
+                            <a class="nav-link pl-1 pr-1" href="{{twitter}}">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="nav-link pl-1 pr-1" href="{{facebook}}">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="nav-link pl-1 pr-1" href="{{instagram}}">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="col-12 col-lg-12"><p>© 2019. <a href="#">Moonlight</a>. Coded By<a href="#" target="_blank"> Tim</a></p></div>
+                </div>
+            </div>
+        </div>
+    </footer>
