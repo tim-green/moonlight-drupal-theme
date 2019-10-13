@@ -1,0 +1,23 @@
+name: 'Moonlight'
+description: 'Moonlight is a responsive Drupal 8 theme for mobile app.'
+# core: 8.x
+type: theme
+base theme: classy
+screenshot: moonlight.png
+
+regions:
+  header: Header
+  logo: Logo
+  primary_menu: Primary menu
+  content: Content
+
+libraries:
+  - moonlight/global-styling
+
+  
+
+# Information added by Drupal.org packaging script on 2018-12-31
+version: '8.x-1.1'
+core: '8.x'
+project: 'moonlight'
+datestamp: 1546256287

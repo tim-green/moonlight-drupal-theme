@@ -1,0 +1,27 @@
+global-styling:
+  css:
+    theme:
+      'https://fonts.googleapis.com/css?family=Poppins:400,500,700': { type: external, minified: true }
+      css/bootstrap.min.css: {}
+      css/owl.carousel.min.css: {}
+      css/magnific-popup.css: {}      
+      css/animate.css: {} 
+      css/fontawesome/css/all.css: {}
+      css/slick/slick.css: {}
+      css/main.css: {}
+      css/theme.css: {}
+
+  js: 
+    js/bootstrap.min.js: {}
+    js/owl.carousel.js: {}
+    js/masonry.js: {}
+    js/magnific-popup.js: {}
+    js/wow.min.js: {}
+    styles/slick/slick.min.js: {}
+    js/scripts.js: {}
+    
+  dependencies:
+    - core/jquery
+    - core/drupalSettings
+    - core/modernizr
+    - core/drupal
